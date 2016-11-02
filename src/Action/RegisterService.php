@@ -20,7 +20,7 @@ use Valitron\Validator;
  *
  * @package G\Registry\Action
  */
-class RegisterService implements EndPointInterface
+class RegisterService implements EndpointInterface
 {
     /** @var Client  */
     protected $client;

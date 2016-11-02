@@ -19,7 +19,7 @@ use Slim\Http\Response;
  *
  * @package G\Registry\Action
  */
-class ServiceQuery implements EndPointInterface
+class ServiceQuery implements EndpointInterface
 {
     /** @var Client  */
     protected $client;
