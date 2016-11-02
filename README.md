@@ -54,6 +54,6 @@ This package is not a library, it is recommended that you install it via compose
 Please create a .env file in the root of this project directory
 
 It requires the following keys:
-    - REDIS_PASSWORD
-    - REDIS_IP
-    - REDIS_PORT
+- REDIS_PASSWORD
+- REDIS_IP
+- REDIS_PORT
