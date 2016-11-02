@@ -1,0 +1,7 @@
+{
+  "services" : [{
+    "name" : "Users",
+    "url" : "http://testurl/",
+    "callback" : "http://testurl/callback"
+  }]
+}

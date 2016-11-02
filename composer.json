@@ -1,0 +1,13 @@
+{
+    "require": {
+        "slim/slim": "^3.5",
+        "vlucas/phpdotenv": "^2.4",
+        "predis/predis": "^1.1",
+        "vlucas/valitron": "^1.2"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "G\\Registry\\" : "src"
+        }
+    }
+}
