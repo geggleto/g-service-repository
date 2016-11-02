@@ -42,3 +42,18 @@ Redis Powered Service Registry API
     
 **Response:**
     `["url",..]`
+    
+    
+## Usage
+
+This package is not a library, it is recommended that you install it via composer create-project
+
+
+## Redis
+
+Please create a .env file in the root of this project directory
+
+It requires the following keys:
+    - REDIS_PASSWORD
+    - REDIS_IP
+    - REDIS_PORT
