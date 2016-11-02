@@ -8,7 +8,7 @@ Redis Powered Service Registry API
     POST /service
 
 
-**Payload:**
+**Body:**
 ```
 {
   "services" : [{
@@ -25,7 +25,7 @@ Redis Powered Service Registry API
     DELETE /service
 
 
-**Payload:**
+**Body:**
 ```
 {
   "services" : [{
@@ -39,3 +39,6 @@ Redis Powered Service Registry API
 ## Resolve a service
 **URL:**
     GET /service/{ServiceName}
+    
+**Response:**
+    `["url",..]`
