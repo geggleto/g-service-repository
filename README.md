@@ -1,6 +1,6 @@
 # G-Service-Registry
 
-Redis Powered Service Registry API
+Redis Powered Service Registry API. Pillar for Service Discovery
 
 ## Register a service
 
