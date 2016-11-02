@@ -9,6 +9,7 @@
 namespace G\Registry\Action;
 
 
+use G\Core\Http\EndpointInterface;
 use Predis\Client;
 use Slim\Http\Request;
 use Slim\Http\Response;
@@ -19,7 +20,7 @@ use Valitron\Validator;
  *
  * @package G\Registry\Action
  */
-class RegisterService implements IAction
+class RegisterService implements EndPointInterface
 {
     /** @var Client  */
     protected $client;
