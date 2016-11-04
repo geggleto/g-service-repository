@@ -13,8 +13,6 @@ use G\Core\Http\EndpointInterface;
 use Predis\Client;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Slim\Http\Request;
-use Slim\Http\Response;
 
 /**
  * Class RegisterService
